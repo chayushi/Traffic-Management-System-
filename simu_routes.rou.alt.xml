@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-09-07 17:11:34 by Eclipse SUMO duarouter Version 1.24.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="simu.net.xml"/>
+        <route-files value="simu.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="simu_routes.rou.xml"/>
+    </output>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="t_0" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="8.69" probability="1.00000000" edges="E1 E1.51"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="t_1" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="8.28" probability="1.00000000" edges="E1 E0.40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="t_2" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="9.62" probability="1.00000000" edges="-E0 E1.51"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="t_3" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="9.59" probability="1.00000000" edges="-E0 -E0.47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="t_4" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="8.69" probability="1.00000000" edges="-E1 -E1.45"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="t_5" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="8.13" probability="1.00000000" edges="-E1 -E0.47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="t_6" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="9.59" probability="1.00000000" edges="E0 E0.40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="t_7" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="9.79" probability="1.00000000" edges="E0 -E1.45"/>
+        </routeDistribution>
+    </vehicle>
+</routes>
